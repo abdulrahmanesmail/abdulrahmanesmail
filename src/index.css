@@ -1,13 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 body {
+  overflow-x: hidden;
+  padding: 0;
   margin: 0;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to left, #b9a8a1 79%, #0000009a );
+  color: #E5E5CB;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+h1 {
+  font-family: sans-serif;
+    background-image: linear-gradient(to right, #271e1b, #000000);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: normal;
+  font-size: 3.1rem;
+  font-weight: 600;
+}
+p {
+  font-family: sans-serif;
+  color: #fff7c4;
+  font-style: normal;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 42.5px;
+  
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Routes {
+  float: right;
+  width: 82.5%;
+}
+
+hr {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #271e1b54;
+}
+
+@media (max-width: 768px) {
+  .Routes {
+    width: 100%;
+  }
+  body {
+    overflow-x: scroll;
+    background: linear-gradient(to bottom, #b9a8a1 79%, #987769 );
+    
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  body {
+    zoom: 80%;
+    height: fit-content;
+    background: linear-gradient(to top, #b9a8a100 79%rgba(152, 119, 105, 0) );
+  }
 }

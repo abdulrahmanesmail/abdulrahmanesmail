@@ -1,0 +1,165 @@
+.Project {
+    background-image: linear-gradient(to left, #271e1b, #000000);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    padding: 20px 10px;
+    margin-bottom: 50px;
+}
+
+.Project-id {
+    display: block;
+    justify-content:first baseline;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+.Project-id div{
+    display: flex;
+}
+.Project-id h6{
+    font-size: 2rem;
+    margin: 0;
+    font-style: normal;
+    background: linear-gradient(to right, bisque, #b9a8a1b5);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Project-id p{
+    margin-top:17.5px ;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    background: linear-gradient(to right, rgb(210, 192, 160), #b9a8a1df);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 25px;
+}
+
+
+
+
+
+
+.Project-status {
+    display: flex;
+    justify-content:first baseline;
+    text-align: left;
+    margin: auto;
+    width: fit-content;    
+    overflow-wrap: break-word;
+}
+
+.Project-status_box {
+    display: block;
+    margin-right: 50px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.Project-status h6{
+    font-size: 1rem;
+    color: #b9a8a18a;
+}
+
+.Project-status p{
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 22px;
+    color: rgb(210, 192, 160);
+}
+
+
+.Project-status_box img{
+    width: 3rem;
+    margin-bottom: 12.5px;
+    position: relative;
+    bottom: 20px;
+    right: 3px;
+}
+.State {
+    color:rgb(86, 255, 86);
+}
+
+
+
+
+
+
+
+
+
+.Project-pages {
+    text-align: center;
+    margin: 0;
+    position: relative;
+    bottom: -25px;
+    padding-bottom: 35px;
+}
+.Project-pages img{
+    text-align: center;
+    width: 13.5rem;
+    margin:0 10px;
+    margin-bottom: 25px;
+}
+
+.Project-pages h2{
+    font-size: 2.5rem;
+    background: linear-gradient(to right, bisque, #b9a8a16f);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content:first baseline;
+    text-align: left;
+    margin: 0;
+    margin-left: 50px;
+    position: relative;
+    bottom: 25px;
+
+}
+
+.Project hr { 
+    position: relative;
+    bottom: 15px;
+    margin-left: 50px;
+    width: 70%;
+}
+
+
+.View-All {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 10px;
+}
+.View-All button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border: 1px #b9a8a185 solid; 
+    width: 110px;
+    height: 45px;
+    background-color:#271e1b;
+    background: linear-gradient(to right, bisque, #b9a8a1b5);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-weight: 600;
+    opacity: 0.9;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    margin-bottom: 10px;
+    z-index: 1000;
+}
+.View-All button:hover {
+    background: linear-gradient(to right, rgb(255,rgba(223, 204, 195, 0.71)), #d7c4bcdc);
+    box-shadow: 0 10px 8px #b9a8a1;
+    background-clip: text;
+    border: 1px #b9a8a1 solid; 
+    -webkit-text-fill-color: transparent;
+    box-shadow: 0 2px 8px rgba(255, 199, 136, 0.034);
+    opacity: 1;
+}
+

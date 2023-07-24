@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 5px;
+    overflow: overlay;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  ::-webkit-scrollbar-track {
+    display: none;
+    visibility: hidden;
+    Background: transparent;
   }
-  to {
-    transform: rotate(360deg);
+   
+  ::-webkit-scrollbar-thumb {
+    background: #271e1b; 
+    border-radius: 14px;
   }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #271e1b; 
+  }
+  ::-moz-selection { /* Code for Firefox */
+    background: #271e1b;
+  }
+  
+  ::selection {
+    background: #271e1b;
+  }
+  
+
+
+@media (max-width: 767px) {
+
+
+::-webkit-scrollbar {
+background-color: #271e1b;
+width: auto;
+height: 3px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
+
+::-webkit-scrollbar-track {
+display: none;
+visibility: hidden;
+Background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right, #b9a8a1 , #E5E5CB );
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #b9a8a1; 
+}
+::-moz-selection { /* Code for Firefox */
+background: #b9a8a1;
+}
+
+::selection {
+background: #b9a8a1;
+}
+
+}
+
